@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Task-1</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body class="total-body">
+        <ul>
+            <li>Programming Language</li>
+                <ul>
+                    <li>Java Script</li>
+                        <ol type="a">
+                            <li>Angular</li>
+                            <li>React</li>
+                            <li>Vue.js</li>
+                        </ol>
+                    <li>Python</li>
+                        <ol type="a">
+                            <li>Django Framework</li>
+                            <li>Flask Framework</li>
+                        </ol>
+                    <li>Java</li>
+                        <ol type="a">
+                            <li>Spring</li>
+                            <li>Maven</li>
+                            <li>Hibernate</li>
+                        </ol>
+                </ul>
+            <li>Database</li>
+                <ul>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Cansandra</li>
+                </ul>
+        </ul>
+        <a href="https://google.com/" target=”_blank”>Google</a><br/>
+
+        <mark>HTML & CSS is awesome</mark>
+
+        <table class="table-complete">
+            <caption>Health Chart</caption>
+            <thead class="table-head">
+                <tr>
+                    <th rowspan="2">State of health</th>
+                    <th colspan="2">Fasting Value</th>
+                    <th>After Eating</th>
+                </tr>
+                <tr>
+                    <th>Minimum</th>
+                    <th>Maximum</th>
+                    <th>2 hours after eating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Healthy</td>
+                    <td>70</td>
+                    <td>100</td>
+                    <td>Less than 140</td>
+                </tr>
+                <tr>
+                    <td>Pre-Diabetes</td>
+                    <td>101</td>
+                    <td>126</td>
+                    <td>140 to 200</td>
+                </tr>
+                <tr>
+                    <td>Diabetes</td>
+                    <td>More than 126</td>
+                    <td>N/A</td>
+                    <td>More than 200</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form class="form-class" method="get">
+            <h4>Employee type</h4>
+            <input type="radio" id="salarized" name="employee-type" value="Salarized"/>
+            <label for="html">Salarized</label><br>
+            <input type="radio" id="own-business" name="employee-type" value="own business"/>
+            <label for="html">own business</label><br>
+        </form>
+
+        <form class="last-form">
+            <h4 >All Input Elements</h4>
+            <section class="name-section">
+                <div class="first-name">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                </div>
+                <div class="last-name">
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname">
+                </div>
+            </section>
+            <section class="mail-section">
+                <div class="mail-division">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username"><br>
+                </div>
+                <div class="passwor-division">
+                    <label for="pwd">Password:</label><br>
+                    <input type="password" id="pwd" name="pwd">
+                </div>
+            </section>
+            <section class="gender-section">
+                <h3>Gender</h3>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">female</label><br>
+                <input type="radio" id="others" name="gender" value="others">
+                <label for="others">others</label>
+            </section>
+
+            <section class="vehicle-section">
+                <h3>Choose vehicles</h3>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="vehicle1"> I have a bike</label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="vehicle2"> I have a car</label><br>
+            </section>
+            
+            <section class="button-section">
+                <input  type="submit" />
+                <input class="reset-button" type="reset"/>
+            </section>
+        </form>
+</body>
+</html>
+

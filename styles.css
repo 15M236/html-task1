@@ -1,0 +1,30 @@
+.table-complete , th , td {
+    margin-top: 1rem;
+    border: 1px solid black;
+    border-collapse: collapse;
+    align-content: center;
+    text-align: center;
+    padding : 1rem;
+}
+
+.form-class {
+    display: block;
+    margin : 1rem;
+    border: 1px solid red;
+    width: 150px;
+}
+
+h4 {
+    text-align: center;
+}
+.last-form {
+    display: block;
+    border: 2px solid red;
+    width : 50%;
+    padding : 1rem;
+}
+
+.name-section , .mail-section{
+    margin-top: 1rem;
+
+}
